@@ -19,7 +19,7 @@ const About = () => {
               json-server ,<i>concurrently</i> bridges between database and
               react js app. Code is in the{' '}
               <a
-                href='https://github.com/arunharshan/xpns-react-app'
+                href='https://github.com/arunharshan/expense-calculator'
                 target='_blank'
               >
                 GitHub page
