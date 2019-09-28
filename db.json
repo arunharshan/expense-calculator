@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": 100,
+      "admin": true,
+      "user_name": "user",
+      "password": "user",
+      "display_name": "Arun Harshan"
+    },
+    {
+      "id": 101,
+      "admin": false,
+      "user_name": "guest",
+      "password": "guest",
+      "display_name": "John Doe"
+    }
+  ],
+  "expenses": [
+    {
+      "title": "My travel plan to visit San Francisco",
+      "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.",
+      "amount": "300",
+      "category": 2,
+      "cid": "51196647-78eb-4c9c-8268-a725d5106c1d",
+      "createdOn": "9/27/2019",
+      "id": 1
+    },
+    {
+      "title": "Birthday Party ! @ 🎉 some restaurant",
+      "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.",
+      "amount": "40",
+      "category": 3,
+      "cid": "fc5ad6ea-1471-42c2-8d0a-7ee23b820bb6",
+      "createdOn": "9/28/2019",
+      "id": 3
+    },
+    {
+      "title": "asjdhahd bashdahsdh ashdhasjkdhas asdasd",
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+      "amount": "1599",
+      "category": 1,
+      "cid": "10173e29-ef90-4833-9fee-038a1c439bcc",
+      "createdOn": "9/28/2019",
+      "id": 4
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "value": "Home"
+    },
+    {
+      "id": 2,
+      "value": "Travel"
+    },
+    {
+      "id": 3,
+      "value": "Food"
+    },
+    {
+      "id": 4,
+      "value": "Other"
+    }
+  ],
+  "carousel": [
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 2,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 3,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 4,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 4,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": 1,
+      "src": "../assets/home/1.png",
+      "alt": "",
+      "title": "",
+      "text": ""
+    }
+  ]
+}
