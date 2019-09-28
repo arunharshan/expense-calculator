@@ -63,21 +63,23 @@ https://github.com/mars/create-react-app-buildpack#quick-start
 
 #### For a fresh build
 
-From your development folder run these commands:
-git init
-heroku create <PrintYourAppName> --buildpack mars/create-react-app
-( Here <PrintYourAppName> is reactexpensecalculator which should be a fresh unique app name)
-git add .
-git commit -m "first commit"
-git push heroku master
-heroku open
+From your development folder run these commands:<br/>
 
-(with this process the code goes into https://git.heroku.com/reactexpensecalculator.git )
+npx create-react-app@2.x $APP_NAME<br/>
+cd $APP_NAME<br/>
+git init<br/>
+heroku create $APP_NAME --buildpack mars/create-react-app<br/>
+git add .<br/>
+git commit -m "Start with create-react-app"<br/>
+git push heroku master<br/>
+heroku open<br/>
+
+(with this process the code goes into https://git.heroku.com/reactexpensecalculator.git )<br/>
 
 #### Deploying from an existing git repo.
 
-heroku git:remote -a reactexpensecalculator
-git add .
-git commit -m "first commit...."
-git push heroku master
-heroku open
+heroku git:remote -a reactexpensecalculator<br/>
+git add .<br/>
+git commit -m "first commit...."<br/>
+git push heroku master<br/>
+heroku open<br/>
