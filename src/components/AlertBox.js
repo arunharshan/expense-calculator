@@ -2,7 +2,6 @@ import React from 'react';
 import { MDBNotification } from 'mdbreact';
 const AlertBox = ({ message }) => {
   const { add, deleted, error, updated, confirm, text } = message;
-  console.log(message);
 
   if (add || updated) {
     return (
