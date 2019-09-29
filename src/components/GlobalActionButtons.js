@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { deleteExpense } from '../actions/expenseActions';
 import { openModel } from '../actions/modelAction';
-
+import AlertBox from './AlertBox';
 //Calling on Clear All button-  has a great performance issue when deleting a large number of item at once hence limitting the add count by < 8 or so.
 
 const GlobalActionButtons = ({ expenses, edit }) => {
@@ -22,6 +22,12 @@ const GlobalActionButtons = ({ expenses, edit }) => {
 
   return (
     <>
+      <AlertBox
+        message={{
+          confirm: true,
+          text: 'Do you want to delete all messages?'
+        }}
+      />
       {expenses && !edit && !modal && (
         <>
           <button

@@ -442,7 +442,7 @@ label,
     left: 0;
     bottom: 0;
     margin-bottom: 0 !important;
-    padding-top: 2px;
+    padding: 0.5rem 0;
     background: linear-gradient(#1e1e2f, #1e1e24) !important;
     border-top: 1px solid rgb(57, 57, 58) !important;
   }
@@ -463,10 +463,12 @@ label,
   }
   .card .card-body .card-text,
   .summary-card .mt-2 {
-    margin-top: 3px !important;
+    margin-top: 6px !important;
   }
   .summary-card h4 {
     font-size: 12px;
+    padding-top: 3px;
+    margin-bottom: 0;
   }
   .summary-card .top .fas {
     padding: 0.6rem;
@@ -474,19 +476,19 @@ label,
   }
   .summary-card .card-body {
     position: absolute !important;
-    left: 11%;
+    left: 10.5%;
   }
   .summary-card p.text-danger {
     position: absolute;
     top: 0;
   }
   .global-button-container {
-    right: -1rem;
-    bottom: 8rem;
+    right: 0;
+    bottom: 6rem;
   }
   .global-button-container .btn.round {
-    width: 2.2rem;
-    height: 2.2rem;
+    width: 3rem;
+    height: 3rem;
   }
   .global-button-container .fa-lx {
     font-size: 0.9rem !important;

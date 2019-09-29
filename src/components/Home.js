@@ -23,28 +23,30 @@ const Home = () => {
   };
   return (
     <div className='body-container home-container'>
-      <div className='d-flex justify-content-center mt-5'>
-        <div
-          className='
+      <div className='container'>
+        <div className='d-flex justify-content-center mt-md-5'>
+          <div
+            className='
         text-white text-center'
-        >
-          <h1 className='display-1'>Expense calculator</h1>
-          <h4>
-            With Xpns budget recorder app,
-            <br /> its easy to manage your expenses.
-          </h4>
-          <p>This is a React.js demo app</p>
+          >
+            <h1 className='display-1'>Expense calculator</h1>
+            <h4>
+              With Xpns budget recorder app,
+              <br /> its easy to manage your expenses.
+            </h4>
+            <p>This is a React.js demo app</p>
+          </div>
         </div>
+        <MDBRow className='d-flex justify-content-center mt-md-5 mb-5'>
+          <MDBCol sm='12'>
+            <MDBCarousel activeItem={6} length={10} className='z-depth-0'>
+              <MDBCarouselInner>
+                <ImageHolder />
+              </MDBCarouselInner>
+            </MDBCarousel>
+          </MDBCol>
+        </MDBRow>
       </div>
-      <MDBRow className='d-flex justify-content-center mt-5 mb-5'>
-        <MDBCol sm='10'>
-          <MDBCarousel activeItem={6} length={10} className='z-depth-0'>
-            <MDBCarouselInner>
-              <ImageHolder />
-            </MDBCarouselInner>
-          </MDBCarousel>
-        </MDBCol>
-      </MDBRow>
     </div>
   );
 };

@@ -22,25 +22,25 @@
       "amount": "300",
       "category": 2,
       "cid": "51196647-78eb-4c9c-8268-a725d5106c1d",
-      "createdOn": "9/27/2019",
+      "createdOn": "9/25/2019",
       "id": 1
     },
     {
       "title": "Birthday Party ! @ 🎉 some restaurant",
       "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.",
-      "amount": "40",
+      "amount": "40.900",
       "category": 3,
-      "cid": "fc5ad6ea-1471-42c2-8d0a-7ee23b820bb6",
-      "createdOn": "9/28/2019",
+      "cid": "432238c1-7d9e-4920-aea8-c066f3e6668w",
+      "createdOn": "9/26/2019",
       "id": 3
     },
     {
-      "title": "asjdhahd bashdahsdh ashdhasjkdhas asdasd",
+      "title": "car repair and oil change",
       "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
-      "amount": "1599",
+      "amount": "300",
       "category": 1,
-      "cid": "10173e29-ef90-4833-9fee-038a1c439bcc",
-      "createdOn": "9/28/2019",
+      "cid": "41b2e37d-7151-4c6b-8f71-e2578d90c6c9",
+      "createdOn": "9/27/2019",
       "id": 4
     }
   ],

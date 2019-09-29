@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { MDBContainer, MDBRow, MDBCol, MDBMask } from 'mdbreact';
 
-import { fetchExpense } from '../actions/expenseActions';
+import { fetchExpense, addNewExpense } from '../actions/expenseActions';
 import AlertBox from './AlertBox';
 import LoadingBox from './LoadingBox';
 
@@ -10,10 +10,21 @@ import ExpenseItem from './ExpenseItem';
 import TotalExpense from './TotalExpense';
 import AddExpenseModalBox from './AddExpenseModalBox';
 import GlobalActionButtons from './GlobalActionButtons';
+import { currentDate } from '../utils';
 
 const Dashboard = () => {
   // initilize useSelector or connect in prev redux-react. version
   const expenseState = useSelector(state => state.expenses);
+  const [dummyData, setDummyData] = useState({
+    title: 'Birthday Party ! @ 🎉 some restaurant',
+    description:
+      'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.',
+    amount: '140.50',
+    category: 4,
+    cid: 'fc5ad6ea-1471-42c2-8d0a-7ee23b820bb6',
+    createdOn: currentDate(),
+    id: 30
+  });
   // initiate dispatch
   const dispatch = useDispatch();
 
@@ -24,11 +35,14 @@ const Dashboard = () => {
     loadExpense();
   }, [dispatch]);
 
+  const dummyDataHandler = () => {
+    dispatch(addNewExpense(dummyData));
+  };
+
   return (
     <div className='dashboard-container body-container about-container'>
       <MDBContainer>
         <MDBMask>
-          {/* className='flex-center flex-column text-white' */}
           <h3>
             {' '}
             DASHBOARD{' '}
@@ -74,6 +88,9 @@ const Dashboard = () => {
                   <p className='text-center text-info'>
                     You can add up to 5 expense
                   </p>
+                  <button onClick={dummyDataHandler} className='btn btn-info'>
+                    Show me a sample expense
+                  </button>
                 </div>
               </div>
             </MDBCol>

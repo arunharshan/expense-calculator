@@ -17,7 +17,9 @@ const About = () => {
               operations. User must login to see the dashboard page, since the
               dashboard is a protected page. The database is created using
               json-server ,<i>concurrently</i> bridges between database and
-              react js app. Code is in the{' '}
+              react js app. <br />
+              The react code and the Json API are deployed in the Heroku App.
+              Code is in the{' '}
               <a
                 href='https://github.com/arunharshan/expense-calculator'
                 target='_blank'
@@ -52,6 +54,10 @@ const About = () => {
                     React Hooks- functional components instead of class based
                     components. [useState, useEffect,useSelector, useDispatch,
                     useRef etc...]
+                  </li>
+                  <li>
+                    <MDBIcon icon='check' className='text-info pr-3' />
+                    Deployment server - Heroku (for both API and react app)
                   </li>
                   <li>
                     <MDBIcon icon='check' className='text-info pr-3' />

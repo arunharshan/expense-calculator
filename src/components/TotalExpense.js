@@ -64,8 +64,8 @@ const TotalExpense = ({ expense }) => {
           </p>
           {percentage() > 100 ? (
             <p className='text-danger'>
-              <i className='fas fa-lightbulb'></i> You have spent more than your
-              budget limit.
+              <i className='fas fa-lightbulb'></i> You have spent more than you
+              planned.
             </p>
           ) : (
             ''

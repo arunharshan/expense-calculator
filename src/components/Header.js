@@ -31,7 +31,7 @@ const Header = props => {
   return (
     <header>
       <MDBNavbar style={bgColor} dark expand='md' scrolling>
-        <MDBNavbarBrand href='/'>
+        <MDBNavbarBrand href='/' onClick={() => setCollapse(false)}>
           <strong>Xpns</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={toggleNavBarHandler} />
