@@ -22,12 +22,6 @@ const GlobalActionButtons = ({ expenses, edit }) => {
 
   return (
     <>
-      <AlertBox
-        message={{
-          confirm: true,
-          text: 'Do you want to delete all messages?'
-        }}
-      />
       {expenses && !edit && !modal && (
         <>
           <button

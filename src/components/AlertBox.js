@@ -47,38 +47,6 @@ const AlertBox = ({ message }) => {
         message={error ? error : 'Error occured, please try again'}
       />
     );
-  } else if (confirm) {
-    return (
-      <div
-        className='toast'
-        role='alert'
-        aria-live='polite'
-        aria-atomic='true'
-        data-delay='10000'
-      >
-        <div
-          role='alert'
-          aria-live='assertive'
-          aria-atomic='true'
-          className='spcl-warning'
-        >
-          <input type='button' />
-          test
-        </div>
-      </div>
-      // <MDBNotification
-      //   show
-      //   fade
-      //   // autohide={8000}
-      //   icon='bell'
-      //   className='spcl-warning'
-      //   iconClassName={`text-danger`}
-      //   title='Message'
-      //   message={text ? text : 'Need your confirmation'}
-      // >
-      //   <input type='button'>test</input>
-      // </MDBNotification>
-    );
   } else {
     return null;
   }
